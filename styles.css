@@ -1,25 +1,55 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-}
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-section {
-    padding: 2rem;
-}
-h2 {
     color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Project cards */
 .project {
-    background: #fff;
-    margin: 1rem 0;
-    padding: 1rem;
-    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
